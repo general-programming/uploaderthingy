@@ -84,6 +84,7 @@
 		BE068E6E22EF1EAE0000D85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		BE068E7022EF1EAE0000D85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = sharechild/Info.plist; sourceTree = SOURCE_ROOT; };
 		BE068E7C22EF24BC0000D85D /* sharechild.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sharechild.entitlements; sourceTree = "<group>"; };
+		BE068E7E22EF3BFA0000D85D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/README.md; sourceTree = "<group>"; };
 		BE08416B22EE967500038256 /* UploadObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadObjects.swift; sourceTree = "<group>"; };
 		BEB0DEAC22EEAFF0006E431F /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataHelper.swift; path = ../../../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Helpers/CoreDataHelper.swift; sourceTree = "<group>"; };
 		BEB0DEAE22EEC0FD006E431F /* UploadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UploadHelper.swift; path = ../../../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Helpers/UploadHelper.swift; sourceTree = "<group>"; };
@@ -192,6 +193,7 @@
 		BECED06922ED257C0000ADFE = {
 			isa = PBXGroup;
 			children = (
+				BE068E7E22EF3BFA0000D85D /* README.md */,
 				BECED07422ED257C0000ADFE /* uploaderthingy */,
 				BECED09022ED257D0000ADFE /* uploaderthingyTests */,
 				BECED09B22ED257D0000ADFE /* uploaderthingyUITests */,
