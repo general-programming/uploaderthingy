@@ -46,6 +46,12 @@ class ImagesController: UITableViewController {
         let image = self.images[indexPath.row]
         
         let alert = UIAlertController(title: "Image " + (image.url ?? "Unknown URL???"), message: nil, preferredStyle: .actionSheet)
+
+        alert.addAction(UIAlertAction(title: "Open in Browser", style: .default, handler: { _ in
+            let url = URL(string: image.url!)
+            UIApplication.shared.open(url!)
+        }))
+        
         alert.addAction(UIAlertAction(title: "Copy URL", style: .default, handler: { _ in
             UIPasteboard.general.string = image.url
         }))
@@ -68,16 +74,26 @@ class ImagesController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let image = self.images[indexPath.row]
-        let action = UIContextualAction(
+        let actionCopy = UIContextualAction(
             style: .normal,
-            title: "Copy URL",
+            title: "Copy",
             handler: {(action, view, completion) in
                 UIPasteboard.general.string = image.url
                 completion(true)
             }
         )
         
-        let config = UISwipeActionsConfiguration(actions: [action])
+        let actionOpen = UIContextualAction(
+            style: .normal,
+            title: "Open",
+            handler: {(action, view, completion) in
+                let url = URL(string: image.url!)
+                UIApplication.shared.open(url!)
+                completion(true)
+            }
+        )
+        
+        let config = UISwipeActionsConfiguration(actions: [actionCopy, actionOpen])
         config.performsFirstActionWithFullSwipe = true
 
         return config
