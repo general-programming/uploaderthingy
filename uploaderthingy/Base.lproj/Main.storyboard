@@ -23,16 +23,14 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SIZE IN MB/KB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ca8-yf-3YQ">
-                                            <rect key="frame" x="113" y="41" width="252" height="20"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIZE IN MB/KB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ca8-yf-3YQ">
+                                            <rect key="frame" x="113" y="41" width="281" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INTERNAL FILENAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whW-q4-HC5">
-                                            <rect key="frame" x="113" y="11" width="252" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INTERNAL FILENAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whW-q4-HC5">
+                                            <rect key="frame" x="113" y="11" width="281" height="21.5"/>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -42,6 +40,16 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="whW-q4-HC5" firstAttribute="top" secondItem="bdC-dl-Mdr" secondAttribute="top" constant="11" id="3e1-Ks-5CY"/>
+                                        <constraint firstAttribute="bottom" secondItem="ca8-yf-3YQ" secondAttribute="bottom" constant="9" id="49f-Dj-8jA"/>
+                                        <constraint firstAttribute="trailing" secondItem="ca8-yf-3YQ" secondAttribute="trailing" constant="20" id="Hxh-Ea-Oui"/>
+                                        <constraint firstAttribute="bottom" secondItem="whW-q4-HC5" secondAttribute="bottom" constant="37.5" id="JXC-Ii-AGq"/>
+                                        <constraint firstItem="ca8-yf-3YQ" firstAttribute="top" secondItem="bdC-dl-Mdr" secondAttribute="top" constant="41" id="bou-jF-O6r"/>
+                                        <constraint firstItem="ca8-yf-3YQ" firstAttribute="leading" secondItem="bdC-dl-Mdr" secondAttribute="leading" constant="113" id="kFe-mC-Tox"/>
+                                        <constraint firstItem="whW-q4-HC5" firstAttribute="leading" secondItem="bdC-dl-Mdr" secondAttribute="leading" constant="113" id="pQT-aC-fw6"/>
+                                        <constraint firstAttribute="trailing" secondItem="whW-q4-HC5" secondAttribute="trailing" constant="20" id="qUm-8q-N6o"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="fileImageView" destination="uj0-ne-5dO" id="C9t-Kj-sDl"/>
