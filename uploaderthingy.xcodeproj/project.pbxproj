@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE068E6422EF087A0000D85D /* UploaderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE068E6222EF087A0000D85D /* UploaderModel.xcdatamodeld */; };
+		BEB0DEAD22EEAFF0006E431F /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEAC22EEAFF0006E431F /* CoreDataHelper.swift */; };
+		BEB0DEAF22EEC0FD006E431F /* UploadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEAE22EEC0FD006E431F /* UploadHelper.swift */; };
+		BEB0DEB022EEC426006E431F /* UploadObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE08416B22EE967500038256 /* UploadObjects.swift */; };
+		BEB0DEB222EEC50F006E431F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEB122EEC50F006E431F /* Constants.swift */; };
 		BECED07622ED257C0000ADFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECED07522ED257C0000ADFE /* AppDelegate.swift */; };
 		BECED07822ED257C0000ADFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECED07722ED257C0000ADFE /* SceneDelegate.swift */; };
-		BECED07A22ED257C0000ADFE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECED07922ED257C0000ADFE /* FirstViewController.swift */; };
-		BECED07C22ED257C0000ADFE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECED07B22ED257C0000ADFE /* SecondViewController.swift */; };
+		BECED07A22ED257C0000ADFE /* ImagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECED07922ED257C0000ADFE /* ImagesController.swift */; };
+		BECED07C22ED257C0000ADFE /* UploadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECED07B22ED257C0000ADFE /* UploadController.swift */; };
 		BECED07F22ED257C0000ADFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECED07D22ED257C0000ADFE /* Main.storyboard */; };
-		BECED08222ED257C0000ADFE /* uploaderthingy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BECED08022ED257C0000ADFE /* uploaderthingy.xcdatamodeld */; };
 		BECED08422ED257D0000ADFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECED08322ED257D0000ADFE /* Assets.xcassets */; };
 		BECED08722ED257D0000ADFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECED08522ED257D0000ADFE /* LaunchScreen.storyboard */; };
 		BECED09222ED257D0000ADFE /* uploaderthingyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECED09122ED257D0000ADFE /* uploaderthingyTests.swift */; };
 		BECED09D22ED257D0000ADFE /* uploaderthingyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECED09C22ED257D0000ADFE /* uploaderthingyUITests.swift */; };
+		BECED0B622EDCDC10000ADFE /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECED0B522EDCDC10000ADFE /* BaseController.swift */; };
+		E8D5A757384EC48CB1339DF4 /* Pods_uploaderthingyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC39D12C57A4E919A8C85AC /* Pods_uploaderthingyUITests.framework */; };
+		FFDBC9D4F3FB7499EEBBC002 /* Pods_uploaderthingyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9339EAD247EC617E98BD212C /* Pods_uploaderthingyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +44,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341317B90BE1FD56EB7CBC4F /* Pods-uploaderthingyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uploaderthingyTests.debug.xcconfig"; path = "Target Support Files/Pods-uploaderthingyTests/Pods-uploaderthingyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AB8D6CE2FB0BD4C8526466C /* Pods_uploaderthingy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uploaderthingy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CCA539C3722DE172D89BE3 /* Pods-uploaderthingy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uploaderthingy.release.xcconfig"; path = "Target Support Files/Pods-uploaderthingy/Pods-uploaderthingy.release.xcconfig"; sourceTree = "<group>"; };
+		9339EAD247EC617E98BD212C /* Pods_uploaderthingyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uploaderthingyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC39D12C57A4E919A8C85AC /* Pods_uploaderthingyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uploaderthingyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE068E6322EF087A0000D85D /* UploaderCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UploaderCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		BE08416B22EE967500038256 /* UploadObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadObjects.swift; sourceTree = "<group>"; };
+		BEB0DEAC22EEAFF0006E431F /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataHelper.swift; path = ../../../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Helpers/CoreDataHelper.swift; sourceTree = "<group>"; };
+		BEB0DEAE22EEC0FD006E431F /* UploadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UploadHelper.swift; path = ../../../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Helpers/UploadHelper.swift; sourceTree = "<group>"; };
+		BEB0DEB122EEC50F006E431F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Constants.swift; sourceTree = SOURCE_ROOT; };
 		BECED07222ED257C0000ADFE /* uploaderthingy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uploaderthingy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECED07522ED257C0000ADFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BECED07722ED257C0000ADFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BECED07922ED257C0000ADFE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BECED07B22ED257C0000ADFE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BECED07922ED257C0000ADFE /* ImagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesController.swift; sourceTree = "<group>"; };
+		BECED07B22ED257C0000ADFE /* UploadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadController.swift; sourceTree = "<group>"; };
 		BECED07E22ED257C0000ADFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BECED08122ED257C0000ADFE /* uploaderthingy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = uploaderthingy.xcdatamodel; sourceTree = "<group>"; };
 		BECED08322ED257D0000ADFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BECED08622ED257D0000ADFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BECED08822ED257D0000ADFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +69,13 @@
 		BECED09822ED257D0000ADFE /* uploaderthingyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uploaderthingyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECED09C22ED257D0000ADFE /* uploaderthingyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploaderthingyUITests.swift; sourceTree = "<group>"; };
 		BECED09E22ED257D0000ADFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BECED0AD22ED367A0000ADFE /* uploaderthingy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uploaderthingy.entitlements; sourceTree = "<group>"; };
+		BECED0B122EDC7070000ADFE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		BECED0B522EDCDC10000ADFE /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseController.swift; path = ../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/BaseController.swift; sourceTree = SOURCE_ROOT; };
+		D929A4DE7913854758100C64 /* Pods-uploaderthingyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uploaderthingyUITests.release.xcconfig"; path = "Target Support Files/Pods-uploaderthingyUITests/Pods-uploaderthingyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DACADCDA66B6719BD1400B39 /* Pods-uploaderthingyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uploaderthingyUITests.debug.xcconfig"; path = "Target Support Files/Pods-uploaderthingyUITests/Pods-uploaderthingyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E4EA5CB7B452289F6E944E /* Pods-uploaderthingy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uploaderthingy.debug.xcconfig"; path = "Target Support Files/Pods-uploaderthingy/Pods-uploaderthingy.debug.xcconfig"; sourceTree = "<group>"; };
+		FF292CBB8319D5D886DF5C62 /* Pods-uploaderthingyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uploaderthingyTests.release.xcconfig"; path = "Target Support Files/Pods-uploaderthingyTests/Pods-uploaderthingyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDBC9D4F3FB7499EEBBC002 /* Pods_uploaderthingyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +98,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D5A757384EC48CB1339DF4 /* Pods_uploaderthingyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66A8536BD863CD68649658F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4EA5CB7B452289F6E944E /* Pods-uploaderthingy.debug.xcconfig */,
+				43CCA539C3722DE172D89BE3 /* Pods-uploaderthingy.release.xcconfig */,
+				341317B90BE1FD56EB7CBC4F /* Pods-uploaderthingyTests.debug.xcconfig */,
+				FF292CBB8319D5D886DF5C62 /* Pods-uploaderthingyTests.release.xcconfig */,
+				DACADCDA66B6719BD1400B39 /* Pods-uploaderthingyUITests.debug.xcconfig */,
+				D929A4DE7913854758100C64 /* Pods-uploaderthingyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		BE08416A22EE966000038256 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE068E6222EF087A0000D85D /* UploaderModel.xcdatamodeld */,
+				BE08416B22EE967500038256 /* UploadObjects.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE08416F22EEAF7600038256 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0DEAC22EEAFF0006E431F /* CoreDataHelper.swift */,
+				BEB0DEAE22EEC0FD006E431F /* UploadHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		BECED06922ED257C0000ADFE = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +144,8 @@
 				BECED09022ED257D0000ADFE /* uploaderthingyTests */,
 				BECED09B22ED257D0000ADFE /* uploaderthingyUITests */,
 				BECED07322ED257C0000ADFE /* Products */,
+				BECED0B022EDC7060000ADFE /* Frameworks */,
+				66A8536BD863CD68649658F8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +162,19 @@
 		BECED07422ED257C0000ADFE /* uploaderthingy */ = {
 			isa = PBXGroup;
 			children = (
+				BE08416F22EEAF7600038256 /* Helpers */,
+				BE08416A22EE966000038256 /* Model */,
+				BECED0AD22ED367A0000ADFE /* uploaderthingy.entitlements */,
 				BECED07522ED257C0000ADFE /* AppDelegate.swift */,
 				BECED07722ED257C0000ADFE /* SceneDelegate.swift */,
-				BECED07922ED257C0000ADFE /* FirstViewController.swift */,
-				BECED07B22ED257C0000ADFE /* SecondViewController.swift */,
+				BECED07922ED257C0000ADFE /* ImagesController.swift */,
+				BECED07B22ED257C0000ADFE /* UploadController.swift */,
 				BECED07D22ED257C0000ADFE /* Main.storyboard */,
 				BECED08322ED257D0000ADFE /* Assets.xcassets */,
 				BECED08522ED257D0000ADFE /* LaunchScreen.storyboard */,
 				BECED08822ED257D0000ADFE /* Info.plist */,
-				BECED08022ED257C0000ADFE /* uploaderthingy.xcdatamodeld */,
+				BECED0B522EDCDC10000ADFE /* BaseController.swift */,
+				BEB0DEB122EEC50F006E431F /* Constants.swift */,
 			);
 			path = uploaderthingy;
 			sourceTree = "<group>";
@@ -134,6 +197,17 @@
 			path = uploaderthingyUITests;
 			sourceTree = "<group>";
 		};
+		BECED0B022EDC7060000ADFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BECED0B122EDC7070000ADFE /* AppKit.framework */,
+				3AB8D6CE2FB0BD4C8526466C /* Pods_uploaderthingy.framework */,
+				9339EAD247EC617E98BD212C /* Pods_uploaderthingyTests.framework */,
+				BDC39D12C57A4E919A8C85AC /* Pods_uploaderthingyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BECED0A122ED257D0000ADFE /* Build configuration list for PBXNativeTarget "uploaderthingy" */;
 			buildPhases = (
+				8E83F9190CD17EC220FB06B8 /* [CP] Check Pods Manifest.lock */,
 				BECED06E22ED257C0000ADFE /* Sources */,
 				BECED06F22ED257C0000ADFE /* Frameworks */,
 				BECED07022ED257C0000ADFE /* Resources */,
@@ -158,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BECED0A422ED257D0000ADFE /* Build configuration list for PBXNativeTarget "uploaderthingyTests" */;
 			buildPhases = (
+				B71FCCD57F89CE8BBFEDA28F /* [CP] Check Pods Manifest.lock */,
 				BECED08922ED257D0000ADFE /* Sources */,
 				BECED08A22ED257D0000ADFE /* Frameworks */,
 				BECED08B22ED257D0000ADFE /* Resources */,
@@ -176,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BECED0A722ED257D0000ADFE /* Build configuration list for PBXNativeTarget "uploaderthingyUITests" */;
 			buildPhases = (
+				DABEE7D7C005A0417F910124 /* [CP] Check Pods Manifest.lock */,
 				BECED09422ED257D0000ADFE /* Sources */,
 				BECED09522ED257D0000ADFE /* Frameworks */,
 				BECED09622ED257D0000ADFE /* Resources */,
@@ -260,15 +337,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E83F9190CD17EC220FB06B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uploaderthingy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71FCCD57F89CE8BBFEDA28F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uploaderthingyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DABEE7D7C005A0417F910124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uploaderthingyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BECED06E22ED257C0000ADFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BECED07C22ED257C0000ADFE /* SecondViewController.swift in Sources */,
-				BECED07A22ED257C0000ADFE /* FirstViewController.swift in Sources */,
+				BEB0DEAF22EEC0FD006E431F /* UploadHelper.swift in Sources */,
+				BECED07C22ED257C0000ADFE /* UploadController.swift in Sources */,
+				BECED07A22ED257C0000ADFE /* ImagesController.swift in Sources */,
+				BECED0B622EDCDC10000ADFE /* BaseController.swift in Sources */,
+				BEB0DEB222EEC50F006E431F /* Constants.swift in Sources */,
+				BEB0DEB022EEC426006E431F /* UploadObjects.swift in Sources */,
 				BECED07622ED257C0000ADFE /* AppDelegate.swift in Sources */,
-				BECED08222ED257C0000ADFE /* uploaderthingy.xcdatamodeld in Sources */,
+				BE068E6422EF087A0000D85D /* UploaderModel.xcdatamodeld in Sources */,
+				BEB0DEAD22EEAFF0006E431F /* CoreDataHelper.swift in Sources */,
 				BECED07822ED257C0000ADFE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,16 +591,25 @@
 		};
 		BECED0A222ED257D0000ADFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E4EA5CB7B452289F6E944E /* Pods-uploaderthingy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = uploaderthingy/uploaderthingy.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 73VB34JVT8;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = uploaderthingy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.uploaderthingy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,16 +617,25 @@
 		};
 		BECED0A322ED257D0000ADFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CCA539C3722DE172D89BE3 /* Pods-uploaderthingy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = uploaderthingy/uploaderthingy.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 73VB34JVT8;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				INFOPLIST_FILE = uploaderthingy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.uploaderthingy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -474,6 +643,7 @@
 		};
 		BECED0A522ED257D0000ADFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341317B90BE1FD56EB7CBC4F /* Pods-uploaderthingyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +664,7 @@
 		};
 		BECED0A622ED257D0000ADFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF292CBB8319D5D886DF5C62 /* Pods-uploaderthingyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +685,7 @@
 		};
 		BECED0A822ED257D0000ADFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACADCDA66B6719BD1400B39 /* Pods-uploaderthingyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +705,7 @@
 		};
 		BECED0A922ED257D0000ADFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D929A4DE7913854758100C64 /* Pods-uploaderthingyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -592,14 +765,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BECED08022ED257C0000ADFE /* uploaderthingy.xcdatamodeld */ = {
+		BE068E6222EF087A0000D85D /* UploaderModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BECED08122ED257C0000ADFE /* uploaderthingy.xcdatamodel */,
+				BE068E6322EF087A0000D85D /* UploaderCoreDataModel.xcdatamodel */,
 			);
-			currentVersion = BECED08122ED257C0000ADFE /* uploaderthingy.xcdatamodel */;
-			path = uploaderthingy.xcdatamodeld;
-			sourceTree = "<group>";
+			currentVersion = BE068E6322EF087A0000D85D /* UploaderCoreDataModel.xcdatamodel */;
+			name = UploaderModel.xcdatamodeld;
+			path = /System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Model/UploaderModel.xcdatamodeld;
+			sourceTree = "<absolute>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
