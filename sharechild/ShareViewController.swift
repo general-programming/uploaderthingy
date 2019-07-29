@@ -60,12 +60,15 @@ class ShareViewController: SLComposeServiceViewController {
         print(item.attachments?.first)
         
         let attachment = item.attachments!.first
+        // XXX: god this is a hack
         attachment?.loadItem(forTypeIdentifier: imageType, options: nil) { data, error in
             if data is UIImage {
                 result((data as! UIImage).pngData() as NSData?)
                 return
+            } else if (data is URL) {
+                result(NSData(contentsOf: data as! URL))
             } else {
-//                print(data)
+                print(data)
                 result(data as? NSData)
                 return
             }
