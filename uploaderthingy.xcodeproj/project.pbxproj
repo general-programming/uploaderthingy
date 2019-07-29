@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BE068E6422EF087A0000D85D /* UploaderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE068E6222EF087A0000D85D /* UploaderModel.xcdatamodeld */; };
+		BE068E6C22EF1EAE0000D85D /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE068E6B22EF1EAE0000D85D /* ShareViewController.swift */; };
+		BE068E6F22EF1EAE0000D85D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE068E6D22EF1EAE0000D85D /* MainInterface.storyboard */; };
+		BE068E7322EF1EAE0000D85D /* sharechild.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BE068E6922EF1EAE0000D85D /* sharechild.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BE068E7822EF205F0000D85D /* UploadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEAE22EEC0FD006E431F /* UploadHelper.swift */; };
+		BE068E7922EF20750000D85D /* UploadObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE08416B22EE967500038256 /* UploadObjects.swift */; };
+		BE068E7A22EF23BE0000D85D /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEAC22EEAFF0006E431F /* CoreDataHelper.swift */; };
+		BE068E7B22EF23C20000D85D /* UploaderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE068E6222EF087A0000D85D /* UploaderModel.xcdatamodeld */; };
+		BE068E7D22EF25D50000D85D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEB122EEC50F006E431F /* Constants.swift */; };
 		BEB0DEAD22EEAFF0006E431F /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEAC22EEAFF0006E431F /* CoreDataHelper.swift */; };
 		BEB0DEAF22EEC0FD006E431F /* UploadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEAE22EEC0FD006E431F /* UploadHelper.swift */; };
 		BEB0DEB022EEC426006E431F /* UploadObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE08416B22EE967500038256 /* UploadObjects.swift */; };
@@ -27,6 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BE068E7122EF1EAE0000D85D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BECED06A22ED257C0000ADFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE068E6822EF1EAE0000D85D;
+			remoteInfo = sharechild;
+		};
 		BECED08E22ED257D0000ADFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BECED06A22ED257C0000ADFE /* Project object */;
@@ -43,6 +58,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BE068E7722EF1EAE0000D85D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BE068E7322EF1EAE0000D85D /* sharechild.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		341317B90BE1FD56EB7CBC4F /* Pods-uploaderthingyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uploaderthingyTests.debug.xcconfig"; path = "Target Support Files/Pods-uploaderthingyTests/Pods-uploaderthingyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3AB8D6CE2FB0BD4C8526466C /* Pods_uploaderthingy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uploaderthingy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +79,11 @@
 		9339EAD247EC617E98BD212C /* Pods_uploaderthingyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uploaderthingyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC39D12C57A4E919A8C85AC /* Pods_uploaderthingyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uploaderthingyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE068E6322EF087A0000D85D /* UploaderCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UploaderCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		BE068E6922EF1EAE0000D85D /* sharechild.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = sharechild.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE068E6B22EF1EAE0000D85D /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShareViewController.swift; path = sharechild/ShareViewController.swift; sourceTree = SOURCE_ROOT; };
+		BE068E6E22EF1EAE0000D85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		BE068E7022EF1EAE0000D85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = sharechild/Info.plist; sourceTree = SOURCE_ROOT; };
+		BE068E7C22EF24BC0000D85D /* sharechild.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sharechild.entitlements; sourceTree = "<group>"; };
 		BE08416B22EE967500038256 /* UploadObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadObjects.swift; sourceTree = "<group>"; };
 		BEB0DEAC22EEAFF0006E431F /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataHelper.swift; path = ../../../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Helpers/CoreDataHelper.swift; sourceTree = "<group>"; };
 		BEB0DEAE22EEC0FD006E431F /* UploadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UploadHelper.swift; path = ../../../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Helpers/UploadHelper.swift; sourceTree = "<group>"; };
@@ -79,6 +113,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BE068E6622EF1EAE0000D85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BECED06F22ED257C0000ADFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,6 +160,17 @@
 			path = ../Pods;
 			sourceTree = "<group>";
 		};
+		BE068E6A22EF1EAE0000D85D /* sharechild */ = {
+			isa = PBXGroup;
+			children = (
+				BE068E7C22EF24BC0000D85D /* sharechild.entitlements */,
+				BE068E6B22EF1EAE0000D85D /* ShareViewController.swift */,
+				BE068E6D22EF1EAE0000D85D /* MainInterface.storyboard */,
+				BE068E7022EF1EAE0000D85D /* Info.plist */,
+			);
+			path = sharechild;
+			sourceTree = SOURCE_ROOT;
+		};
 		BE08416A22EE966000038256 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +195,7 @@
 				BECED07422ED257C0000ADFE /* uploaderthingy */,
 				BECED09022ED257D0000ADFE /* uploaderthingyTests */,
 				BECED09B22ED257D0000ADFE /* uploaderthingyUITests */,
+				BE068E6A22EF1EAE0000D85D /* sharechild */,
 				BECED07322ED257C0000ADFE /* Products */,
 				BECED0B022EDC7060000ADFE /* Frameworks */,
 				66A8536BD863CD68649658F8 /* Pods */,
@@ -155,6 +208,7 @@
 				BECED07222ED257C0000ADFE /* uploaderthingy.app */,
 				BECED08D22ED257D0000ADFE /* uploaderthingyTests.xctest */,
 				BECED09822ED257D0000ADFE /* uploaderthingyUITests.xctest */,
+				BE068E6922EF1EAE0000D85D /* sharechild.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,6 +265,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BE068E6822EF1EAE0000D85D /* sharechild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE068E7422EF1EAE0000D85D /* Build configuration list for PBXNativeTarget "sharechild" */;
+			buildPhases = (
+				BE068E6522EF1EAE0000D85D /* Sources */,
+				BE068E6622EF1EAE0000D85D /* Frameworks */,
+				BE068E6722EF1EAE0000D85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sharechild;
+			productName = sharechild;
+			productReference = BE068E6922EF1EAE0000D85D /* sharechild.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		BECED07122ED257C0000ADFE /* uploaderthingy */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BECED0A122ED257D0000ADFE /* Build configuration list for PBXNativeTarget "uploaderthingy" */;
@@ -219,10 +290,12 @@
 				BECED06E22ED257C0000ADFE /* Sources */,
 				BECED06F22ED257C0000ADFE /* Frameworks */,
 				BECED07022ED257C0000ADFE /* Resources */,
+				BE068E7722EF1EAE0000D85D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BE068E7222EF1EAE0000D85D /* PBXTargetDependency */,
 			);
 			name = uploaderthingy;
 			productName = uploaderthingy;
@@ -277,6 +350,9 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = generalprogramming;
 				TargetAttributes = {
+					BE068E6822EF1EAE0000D85D = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					BECED07122ED257C0000ADFE = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -306,11 +382,20 @@
 				BECED07122ED257C0000ADFE /* uploaderthingy */,
 				BECED08C22ED257D0000ADFE /* uploaderthingyTests */,
 				BECED09722ED257D0000ADFE /* uploaderthingyUITests */,
+				BE068E6822EF1EAE0000D85D /* sharechild */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BE068E6722EF1EAE0000D85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE068E6F22EF1EAE0000D85D /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BECED07022ED257C0000ADFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,6 +492,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BE068E6522EF1EAE0000D85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE068E7822EF205F0000D85D /* UploadHelper.swift in Sources */,
+				BE068E6C22EF1EAE0000D85D /* ShareViewController.swift in Sources */,
+				BE068E7B22EF23C20000D85D /* UploaderModel.xcdatamodeld in Sources */,
+				BE068E7A22EF23BE0000D85D /* CoreDataHelper.swift in Sources */,
+				BE068E7922EF20750000D85D /* UploadObjects.swift in Sources */,
+				BE068E7D22EF25D50000D85D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BECED06E22ED257C0000ADFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -443,6 +541,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BE068E7222EF1EAE0000D85D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE068E6822EF1EAE0000D85D /* sharechild */;
+			targetProxy = BE068E7122EF1EAE0000D85D /* PBXContainerItemProxy */;
+		};
 		BECED08F22ED257D0000ADFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BECED07122ED257C0000ADFE /* uploaderthingy */;
@@ -456,6 +559,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BE068E6D22EF1EAE0000D85D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE068E6E22EF1EAE0000D85D /* Base */,
+			);
+			name = MainInterface.storyboard;
+			path = sharechild;
+			sourceTree = SOURCE_ROOT;
+		};
 		BECED07D22ED257C0000ADFE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -475,6 +587,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BE068E7522EF1EAE0000D85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = sharechild/sharechild.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73VB34JVT8;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TARGET_IS_EXTENSION=1",
+				);
+				INFOPLIST_FILE = sharechild/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.uploaderthingy.sharechild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE068E7622EF1EAE0000D85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = sharechild/sharechild.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73VB34JVT8;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "TARGET_IS_EXTENSION=1";
+				INFOPLIST_FILE = sharechild/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.uploaderthingy.sharechild;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BECED09F22ED257D0000ADFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -593,13 +751,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6E4EA5CB7B452289F6E944E /* Pods-uploaderthingy.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = uploaderthingy/uploaderthingy.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 73VB34JVT8;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGET_IS_APP=1",
+				);
 				INFOPLIST_FILE = uploaderthingy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -619,13 +783,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43CCA539C3722DE172D89BE3 /* Pods-uploaderthingy.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = uploaderthingy/uploaderthingy.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 73VB34JVT8;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGET_IS_APP=1",
+				);
 				INFOPLIST_FILE = uploaderthingy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -726,6 +896,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BE068E7422EF1EAE0000D85D /* Build configuration list for PBXNativeTarget "sharechild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE068E7522EF1EAE0000D85D /* Debug */,
+				BE068E7622EF1EAE0000D85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BECED06D22ED257C0000ADFE /* Build configuration list for PBXProject "uploaderthingy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
