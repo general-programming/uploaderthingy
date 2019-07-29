@@ -115,9 +115,7 @@ class UploadController: UIViewController, UITableViewDelegate, UITableViewDataSo
     }
     
     func imageUploaded() {
-        self.tableView.beginUpdates()
-        self.tableView.deleteRows(at: [IndexPath(row: 0, section: 0)], with: .automatic)
-        self.tableView.endUpdates()
+        self.tableView.reloadData()
     }
     
     func openCamera() {
