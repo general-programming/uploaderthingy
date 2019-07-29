@@ -86,6 +86,8 @@ class ImagesController: UITableViewController {
     
     @objc func loadImages() {
         let imageFetch = NSFetchRequest<UploadedFile>(entityName: "UploadedFile")
+        let sort = NSSortDescriptor(key: #keyPath(UploadedFile.uploadtime), ascending: false)
+        imageFetch.sortDescriptors = [sort]
         
         do {
             let fetchedImages = try CoreDataHelper.context.fetch(imageFetch)
