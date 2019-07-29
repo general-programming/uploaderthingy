@@ -18,7 +18,7 @@ class UploadHelper: NSObject {
     }
     
     func createMultipath(formName: String, imageData: Data, boundary: String) -> Data {
-        var data = Data();
+        var data = Data()
         // Code snippet from https://fluffy.es/upload-image-to-server/#swiftcode
 
         // Add the image data to the raw http request data
@@ -31,7 +31,7 @@ class UploadHelper: NSObject {
         // According to the HTTP 1.1 specification https://tools.ietf.org/html/rfc7230
         data.append("\r\n--\(boundary)--\r\n".data(using: .utf8)!)
 
-        return data;
+        return data
     }
     
     func postUpload(toUpload: UploaderImageQueued, url: String, headers: Dictionary<String, String>, formName: String, callback: @escaping (UploaderResponse?) -> Void) {

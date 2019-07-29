@@ -54,7 +54,7 @@ class ShareViewController: SLComposeServiceViewController {
         guard let item = extensionContext.inputItems.first as? NSExtensionItem else {
             print("extensionContext.inputItems.first failed to exist")
             result(nil)
-            return;
+            return
         }
         
         print(item.attachments?.first)
