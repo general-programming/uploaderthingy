@@ -13,7 +13,8 @@ class UploadHelper: NSObject {
     
     func elixireUpload(toUpload: UploaderImageQueued, callback: @escaping (UploaderResponse?) -> Void) {
         self.postUpload(toUpload: toUpload, url: ELIXIRE_UPLOAD_API, headers: [
-            "Authorization": "insert your own token"
+            "Authorization": "insert your own token",
+            "X-Elixire-Client": "genprog-ios-uploader",
         ], formName: "f", callback: callback)
     }
     
