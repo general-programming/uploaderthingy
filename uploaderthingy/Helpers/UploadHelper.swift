@@ -39,7 +39,7 @@ class UploadHelper: NSObject {
         let url = URL(string: url)!
         var request = URLRequest(url: url)
         let boundary = UUID().uuidString + "_IOSUPLOADER"
-        let imageData = toUpload.image.jpegData(compressionQuality: 0.5)!
+        let imageData = toUpload.image.jpegData(compressionQuality: 0.80)!
         guard let uploadData = try? self.createMultipath(formName: formName, imageData: imageData, boundary: boundary) else {
             return callback(nil)
         }

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50E3D9395DA1DA6BE30683C7 /* Pods_uploaderthingy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB8D6CE2FB0BD4C8526466C /* Pods_uploaderthingy.framework */; };
 		BE068E6422EF087A0000D85D /* UploaderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE068E6222EF087A0000D85D /* UploaderModel.xcdatamodeld */; };
 		BE068E6C22EF1EAE0000D85D /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE068E6B22EF1EAE0000D85D /* ShareViewController.swift */; };
 		BE068E6F22EF1EAE0000D85D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE068E6D22EF1EAE0000D85D /* MainInterface.storyboard */; };
@@ -16,6 +17,8 @@
 		BE068E7A22EF23BE0000D85D /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEAC22EEAFF0006E431F /* CoreDataHelper.swift */; };
 		BE068E7B22EF23C20000D85D /* UploaderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE068E6222EF087A0000D85D /* UploaderModel.xcdatamodeld */; };
 		BE068E7D22EF25D50000D85D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEB122EEC50F006E431F /* Constants.swift */; };
+		BE45C0C9231391D000B93957 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE45C0C8231391D000B93957 /* CloudKit.framework */; };
+		BE45C0CA231391DE00B93957 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE45C0C8231391D000B93957 /* CloudKit.framework */; };
 		BEB0DEAD22EEAFF0006E431F /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEAC22EEAFF0006E431F /* CoreDataHelper.swift */; };
 		BEB0DEAF22EEC0FD006E431F /* UploadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0DEAE22EEC0FD006E431F /* UploadHelper.swift */; };
 		BEB0DEB022EEC426006E431F /* UploadObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE08416B22EE967500038256 /* UploadObjects.swift */; };
@@ -86,6 +89,7 @@
 		BE068E7C22EF24BC0000D85D /* sharechild.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sharechild.entitlements; sourceTree = "<group>"; };
 		BE068E7E22EF3BFA0000D85D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/README.md; sourceTree = "<group>"; };
 		BE08416B22EE967500038256 /* UploadObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadObjects.swift; sourceTree = "<group>"; };
+		BE45C0C8231391D000B93957 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		BEB0DEAC22EEAFF0006E431F /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreDataHelper.swift; path = ../../../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Helpers/CoreDataHelper.swift; sourceTree = "<group>"; };
 		BEB0DEAE22EEC0FD006E431F /* UploadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UploadHelper.swift; path = ../../../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Helpers/UploadHelper.swift; sourceTree = "<group>"; };
 		BEB0DEB122EEC50F006E431F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../../../../../System/Volumes/Data/Users/meme/nocloud/git_repos/uploaderthingy/uploaderthingy/uploaderthingy/Constants.swift; sourceTree = SOURCE_ROOT; };
@@ -118,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE45C0CA231391DE00B93957 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E3D9395DA1DA6BE30683C7 /* Pods_uploaderthingy.framework in Frameworks */,
+				BE45C0C9231391D000B93957 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +263,7 @@
 		BECED0B022EDC7060000ADFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE45C0C8231391D000B93957 /* CloudKit.framework */,
 				BECED0B122EDC7070000ADFE /* AppKit.framework */,
 				3AB8D6CE2FB0BD4C8526466C /* Pods_uploaderthingy.framework */,
 				9339EAD247EC617E98BD212C /* Pods_uploaderthingyTests.framework */,
@@ -293,6 +301,7 @@
 				BECED06F22ED257C0000ADFE /* Frameworks */,
 				BECED07022ED257C0000ADFE /* Resources */,
 				BE068E7722EF1EAE0000D85D /* Embed App Extensions */,
+				59108442470D264E674CACED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -425,6 +434,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		59108442470D264E674CACED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uploaderthingy/Pods-uploaderthingy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uploaderthingy/Pods-uploaderthingy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uploaderthingy/Pods-uploaderthingy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8E83F9190CD17EC220FB06B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -594,7 +620,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = sharechild/sharechild.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73VB34JVT8;
+				DEVELOPMENT_TEAM = W6WYQ727TJ;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -606,7 +632,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.uploaderthingy.sharechild;
+				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.imageuploader.shareappex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -619,7 +645,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = sharechild/sharechild.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 73VB34JVT8;
+				DEVELOPMENT_TEAM = W6WYQ727TJ;
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "TARGET_IS_EXTENSION=1";
 				INFOPLIST_FILE = sharechild/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -627,7 +653,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.uploaderthingy.sharechild;
+				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.imageuploader.shareappex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -759,7 +785,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_TEAM = 73VB34JVT8;
+				DEVELOPMENT_TEAM = W6WYQ727TJ;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -772,7 +798,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.uploaderthingy;
+				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.imageuploader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_UIKITFORMAC = YES;
@@ -791,7 +817,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_TEAM = 73VB34JVT8;
+				DEVELOPMENT_TEAM = W6WYQ727TJ;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
@@ -804,7 +830,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.uploaderthingy;
+				PRODUCT_BUNDLE_IDENTIFIER = org.generalprogramming.imageuploader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_UIKITFORMAC = YES;

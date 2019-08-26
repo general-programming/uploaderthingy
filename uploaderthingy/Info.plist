@@ -25,7 +25,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>This application needs camera permission to upload  MCDONALD&apos;S! from your camera.</string>
+	<string>This application needs camera permission to upload  MCDONALD'S! from your camera.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>This application needs photo library permission to upload photos from your photo library.</string>
 	<key>UIApplicationSceneManifest</key>

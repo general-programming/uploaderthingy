@@ -155,7 +155,7 @@ class UploadController: UIViewController, UITableViewDelegate, UITableViewDataSo
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-            let imgData = NSData(data: pickedImage.jpegData(compressionQuality: 0.75)!)
+            let imgData = NSData(data: pickedImage.jpegData(compressionQuality: 0.80)!)
             let imageSize: Int = imgData.count
 
             self.data.append(UploaderImageQueued(filename: "upload.png", size: imageSize, image: pickedImage))

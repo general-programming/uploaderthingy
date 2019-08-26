@@ -22,7 +22,7 @@ struct CoreDataHelper {
         */
         let container = NSPersistentCloudKitContainer(name: "UploaderModel")
         container.persistentStoreDescriptions = [
-            NSPersistentStoreDescription(url: FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.uploaderthingy")!.appendingPathComponent("uploaderdata.sqlite"))
+            NSPersistentStoreDescription(url: FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.org.generalprogramming.imageuploader.shareddata")!.appendingPathComponent("uploaderdata.sqlite"))
         ]
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
@@ -80,7 +80,7 @@ struct CoreDataHelper {
         let jpegPreview = image.jpegData(compressionQuality: 0.1)
 
         newImage.url = url
-        newImage.size = Int64(image.jpegData(compressionQuality: 0.75)!.count)
+        newImage.size = Int64(image.jpegData(compressionQuality: 0.80)!.count)
         newImage.preview = jpegPreview
         newImage.uploadtime = Date.init()
         
